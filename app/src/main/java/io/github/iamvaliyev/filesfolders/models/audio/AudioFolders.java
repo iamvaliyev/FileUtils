@@ -33,6 +33,7 @@ public class AudioFolders extends Folder implements Parcelable {
     }
 
     protected AudioFolders(Parcel in) {
+        super(in);
         if (in.readByte() == 0x01) {
             audios = new ArrayList<Audio>();
             in.readList(audios, Video.class.getClassLoader());
@@ -48,6 +49,7 @@ public class AudioFolders extends Folder implements Parcelable {
 
     @Override
     public void writeToParcel(Parcel dest, int flags) {
+        super.writeToParcel(dest, flags);
         if (audios == null) {
             dest.writeByte((byte) (0x00));
         } else {

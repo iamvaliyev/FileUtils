@@ -192,6 +192,7 @@ public class Audio extends Media implements Parcelable {
     }
 
     protected Audio(Parcel in) {
+        super(in);
         ALBUM = in.readString();
         ALBUM_ID = in.readString();
         ALBUM_KEY = in.readString();
@@ -218,6 +219,7 @@ public class Audio extends Media implements Parcelable {
 
     @Override
     public void writeToParcel(Parcel dest, int flags) {
+        super.writeToParcel(dest, flags);
         dest.writeString(ALBUM);
         dest.writeString(ALBUM_ID);
         dest.writeString(ALBUM_KEY);
