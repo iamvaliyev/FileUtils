@@ -1,8 +1,8 @@
 # FileUtils functionality
-Audios+
-Videos+
-Folders with Audio+
-Folders with Video+
+    Audios+
+    Videos+
+    Folders with Audio+
+    Folders with Video+
 
 ##Gradle
 
