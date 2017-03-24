@@ -3,57 +3,12 @@
 
     <item
         is-multidex="false"
-        jar="/Users/Valiyev/.android/build-cache/7ed49b5fd91711ba4c1e696163d0547bd6e4192f/output/jars/classes.jar"
+        jar="/Users/Valiyev/Desktop/DesignPhotos/FilesFolders/app/build/intermediates/bundles/default/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.1"
-        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
-        <dex dex="/Users/Valiyev/Desktop/DesignPhotos/FilesFolders/app/build/intermediates/pre-dexed/debug/classes_c3ea05160aaae9276072cc3dadcc71963eceb2d1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Valiyev/.android/build-cache/6bc2faf0700c2e3555625edd63c5c682f056eab3/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="e66616684d8fd587fa67a6591b2dca606af85408">
-        <dex dex="/Users/Valiyev/Desktop/DesignPhotos/FilesFolders/app/build/intermediates/pre-dexed/debug/classes_25877803fb2544aef809b5ef282edfeccc93e6ad.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Valiyev/.android/build-cache/1abb45cfc130dfac96fd34e08094a39492ae1e7a/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="b14afbb5e3d347d8b3ccb934403554c4d93fa8a0">
-        <dex dex="/Users/Valiyev/Desktop/DesignPhotos/FilesFolders/app/build/intermediates/pre-dexed/debug/classes_24a03ce05578343d19802861850937db70a8a8ab.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Valiyev/.android/build-cache/9f52cc135b7770ee0ac871e6c8d3c781bd4c9e38/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="d4c936aa8c7d2522c82e3f1829c791d9e367f009">
-        <dex dex="/Users/Valiyev/Desktop/DesignPhotos/FilesFolders/app/build/intermediates/pre-dexed/debug/classes_977e0577d0612020202a7acf95b6924c7d50d870.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Valiyev/.android/build-cache/07a7f3d05f727dc4765e2de44ef8fa46d05e19a6/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="828f50e8aff9f21c75e61a319c38993efc0590ca">
-        <dex dex="/Users/Valiyev/Desktop/DesignPhotos/FilesFolders/app/build/intermediates/pre-dexed/debug/classes_73510fbe88b5a8d5c917082b48f7409dde7caa42.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Valiyev/.android/build-cache/f8861711cb5a1fc42e8be310b7e7bd478de15100/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="2a24cba08e1d865a79e61335f5a1bd64d520106d">
-        <dex dex="/Users/Valiyev/Desktop/DesignPhotos/FilesFolders/app/build/intermediates/pre-dexed/debug/classes_e6804bbcbd4ac0143841e722fcf855d091951f5e.jar" />
+        sha1="5e0984f373a32bb7124719ffd1940073a72e5e15">
+        <dex dex="/Users/Valiyev/Desktop/DesignPhotos/FilesFolders/demo/build/intermediates/pre-dexed/debug/classes_8ea76b9aac099105b9d81606083fb7a8115d1924.jar" />
     </item>
 
 </items>

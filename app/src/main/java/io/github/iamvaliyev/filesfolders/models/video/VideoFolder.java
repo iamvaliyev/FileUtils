@@ -32,8 +32,9 @@ public class VideoFolder extends Folder implements Parcelable {
     }
 
     protected VideoFolder(Parcel in) {
+        super(in);
         if (in.readByte() == 0x01) {
-            videos = new ArrayList<Video>();
+            videos = new ArrayList<>();
             in.readList(videos, Video.class.getClassLoader());
         } else {
             videos = null;
@@ -47,6 +48,7 @@ public class VideoFolder extends Folder implements Parcelable {
 
     @Override
     public void writeToParcel(Parcel dest, int flags) {
+        super.writeToParcel(dest, flags);
         if (videos == null) {
             dest.writeByte((byte) (0x00));
         } else {

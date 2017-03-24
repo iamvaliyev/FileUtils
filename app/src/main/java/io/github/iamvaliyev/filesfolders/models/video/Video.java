@@ -180,6 +180,7 @@ public class Video extends Media implements Parcelable {
     }
 
     protected Video(Parcel in) {
+        super(in);
         ALBUM = in.readString();
         ARTIST = in.readString();
         BOOKMARK = in.readString();
@@ -205,6 +206,7 @@ public class Video extends Media implements Parcelable {
 
     @Override
     public void writeToParcel(Parcel dest, int flags) {
+        super.writeToParcel(dest, flags);
         dest.writeString(ALBUM);
         dest.writeString(ARTIST);
         dest.writeString(BOOKMARK);

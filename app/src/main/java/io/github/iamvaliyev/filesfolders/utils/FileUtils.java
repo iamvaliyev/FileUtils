@@ -370,7 +370,7 @@ public class FileUtils {
         }
 
         for (int i = 0; i < folders.size(); i++) {
-            Log.e("VideoFolder", folders.get(i).getTitle() + " -- " + folders.get(i).getPath() + " -- " + folders.get(i).getVideos().size());
+            Log.e("VideoFolder", folders.get(i).getVideos().get(0).getTITLE() + " -- " + folders.get(i).getVideos().get(0).getDATA() + " -- " + folders.get(i).getVideos().size());
         }
 
         return folders;

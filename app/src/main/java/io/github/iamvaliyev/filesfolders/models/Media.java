@@ -108,6 +108,7 @@ public class Media extends BaseMedia implements Parcelable {
     }
 
     protected Media(Parcel in) {
+        super(in);
         DATA = in.readString();
         DATE_ADDED = in.readString();
         DATE_MODIFIED = in.readString();
@@ -126,6 +127,7 @@ public class Media extends BaseMedia implements Parcelable {
 
     @Override
     public void writeToParcel(Parcel dest, int flags) {
+        super.writeToParcel(dest, flags);
         dest.writeString(DATA);
         dest.writeString(DATE_ADDED);
         dest.writeString(DATE_MODIFIED);
