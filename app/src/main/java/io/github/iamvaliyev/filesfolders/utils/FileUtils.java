@@ -96,7 +96,7 @@ public class FileUtils {
     }
 
 
-    public static ArrayList<Audio> getAllAudioFoldersAndFile(Context context) {
+    public static ArrayList<AudioFolders> getAllAudioFoldersAndFile(Context context) {
 
         ArrayList<AudioFolders> folders = new ArrayList<>();
         ArrayList<String> foldersPaths = new ArrayList<>();
@@ -196,7 +196,7 @@ public class FileUtils {
             Log.e("VideoFolder", folders.get(i).getTitle() + " -- " + folders.get(i).getPath() + " -- " + folders.get(i).getAudios().size());
         }
 
-        return files;
+        return folders;
     }
 
     public static ArrayList<Video> getAllVideoFiles(Context context) {
